@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(0deg, #166ddf 0, rgb(117, 33, 117) 100%);
+  background-color: blueviolet;
+}
+
+
+img {
+    position: absolute;
+    width: 822.5px;
+    height: 804px;
+    left: -287px;
+    top: 329.31px;
+    background: url(Group 91);
+    transform: rotate(-20deg);
+}
+
