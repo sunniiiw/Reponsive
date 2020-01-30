@@ -120,6 +120,7 @@ button {
   .home-logo {
     margin: 0 0 32px 0;
     display: flex;
+    align-items: center;
   }
 
   .home-logo img {
@@ -130,7 +131,7 @@ button {
   .home-logo p {
     margin: 0;
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .home-nav-element-container {
@@ -348,7 +349,7 @@ button {
     margin-top: 120px;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
   }
 
@@ -371,6 +372,10 @@ button {
     text-align: center;
   }
 
+  .nav-title h4 {
+    font-size: 20px;
+  }
+
   .nav-title p {
     margin: 12px 0 0 0;
   }
@@ -389,10 +394,78 @@ button {
     background: #ea3f58;
   }
 
+  section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .home-body {
+    width: 66.602%;
+  }
+
+  .home-body-header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .home-body-header button {
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .home-logo img {
+    width: 55px;
+    height: 32px;
+  }
+
+  .home-logo p {
+    font-size: 30px;
+  }
 
 
+  .home-nav-element-container {
+    margin-top: 160px;
+  }
 
+  .home-circel {
+    width: 340px;
+    height: 340px;
+    margin-bottom: 48px;
+  }
 
+  .home-time-container {
+    width: 324px;
+    height: 324px;
+  }
+
+  .home-time-container h6 {
+    font-size: 24px;
+  }
+
+  .home-time-container h3 {
+    font-size: 76px;
+  }
+
+  .home-time-container p {
+    font-size: 24px;
+  }
+
+  .nav-title h4 {
+    font-size: 28px;
+  }
+
+  .nav-title p {
+    font-size: 20px;
+  }
+
+  .nav-percentage-bar {
+    width: 380px;
+    height: 78px;
+    margin-top: 208px;
+  }
 
 
 }
