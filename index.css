@@ -384,6 +384,10 @@ button {
     margin-top: 125px;
     background: #ffffff;
     color: #000000;
+    position: absolute;
+    bottom: 40px;
+    transform: translateX(-50%);
+    left: 50%;
   }
 
   .nav-percentage-bar span {
@@ -402,16 +406,21 @@ button {
 
   .home-body {
     width: 66.602%;
+    padding: 32px 0;
   }
 
   .home-body-header {
-    display: flex;
-    flex-direction: column-reverse;
-    /* justify-content: flex-end; */
+    padding-top: 52px;
   }
 
   .home-body-header button {
-    margin-bottom: 16px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+
+  .home-body-sections {
+    margin-left: 48px;
   }
 }
 
@@ -424,7 +433,6 @@ button {
   .home-logo p {
     font-size: 30px;
   }
-
 
   .home-nav-element-container {
     /* margin-top: 160px; */
@@ -464,7 +472,30 @@ button {
   .nav-percentage-bar {
     width: 380px;
     height: 78px;
-    /* margin-top: 208px; */
+  }
+
+  .home-body-header p {
+    font-size: 16px;
+  }
+
+  .home-body-header h3 {
+    font-size: 32px;
+  }
+
+  .home-body-sections {
+    margin-left: 72px;
+  }
+
+  .section-number {
+    font-size: 24px;
+  }
+
+  .section-class h3 {
+    font-size: 24px;
+  }
+
+  .section-class p {
+    font-size: 20px;
   }
 
   .taken-class {
@@ -474,6 +505,4 @@ button {
   .taken-class p {
     color: #b6bfc9;
   }
-
-
 }
