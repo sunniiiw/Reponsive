@@ -407,7 +407,7 @@ button {
   .home-body-header {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
   }
 
   .home-body-header button {
@@ -427,13 +427,13 @@ button {
 
 
   .home-nav-element-container {
-    margin-top: 160px;
+    /* margin-top: 160px; */
   }
 
   .home-circel {
     width: 340px;
     height: 340px;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
   }
 
   .home-time-container {
@@ -464,7 +464,15 @@ button {
   .nav-percentage-bar {
     width: 380px;
     height: 78px;
-    margin-top: 208px;
+    /* margin-top: 208px; */
+  }
+
+  .taken-class {
+    color: #b6bfc9;
+  }
+
+  .taken-class p {
+    color: #b6bfc9;
   }
 
 
